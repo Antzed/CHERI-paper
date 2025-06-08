@@ -9,7 +9,7 @@
 % ---- Metadata --------------------------------------------------------------
 \title{Capability‑Enforced Direct I/O: A CHERI‑Based Approach for Secure User‑Space Network-Drivers}
 
-\author{Anthony Zhang}
+\author{Anthony Zhang}
 \affiliation{\institution{Northwestern University}\country{USA}}
 \email{anthony.zhang@u.northwestern.edu}
 
@@ -49,11 +49,15 @@ Modern high‑performance networking often bypasses the kernel’s network stac
 We present \textbf{CE‑IO}, a prototype built on CheriBSD that (i) derives device‑specific capabilities in the kernel, (ii) passes them to a minimal \e driver (\texttt{e1000pol}) via an authenticated ioctl interface, and (iii) exposes transmit/receive rings to untrusted user code through a custom mmap‑like syscall while preventing illicit remapping. Our evaluation on ARM Morello hardware shows that CE‑IO achieves near‑zero‑copy performance (within 6 % of baseline netmap) while eliminating several attack vectors, including pointer forgery and buffer overflows targeting the DMA region. We discuss lessons learned, remaining challenges in capability revocation, and directions for integrating CE‑IO with higher‑level network stacks.
 \end{abstract}
 
+\keywords{CHERI, capabilities, DMA, zero‑copy, user‑space networking, FreeBSD, e1000, memory isolation}
+
+
+\newpage
 \maketitle
 \tableofcontents
-\newpage
 
-\keywords{CHERI, capabilities, DMA, zero‑copy, user‑space networking, FreeBSD, e1000, memory isolation}
+
+
 
 
 
@@ -124,17 +128,21 @@ case E1000_MAP_RING: {
 
 \section{Implementation}
 \label{sec:impl}
-We implemented CE-IO on CheriBSD commit #\texttt{deadbeef}. The total code footprint is 1.9 kLOC: 900 lines in \texttt{e1000pol}, 650 in \texttt{cap\_svc}, and 350 in user‑space library \texttt{libceio}. Implementation details include:
+We implemented CE-IO on CheriBSD commit \#\texttt{deadbeef}. The total code footprint is 1.9 kLOC: 900 lines in \texttt{e1000pol}, 650 in \texttt{cap\_svc}, and 350 in user‑space library \texttt{libceio}. Implementation details include:
 \begin{itemize}
     \item \textbf{Ring Allocation}: A contiguous 2 MB large page per queue to simplify bounds.
-    \item \textbf{Capability Passing}: Capabilities are marshalled as 128‑bit integers in a packed struct to avoid alignment issues across PLAT_ABI.
+    \item \textbf{Capability Passing}: Capabilities are marshalled as 128-bit integers in a packed struct to avoid alignment issues across $PLAT_ABI$.
     \item \textbf{User Library}: Provides \texttt{ceio\_tx\_push} and \texttt{ceio\_rx\_pop} helpers with inline CHERI intrinsics (\texttt{csetbounds}, \texttt{cfromptr}).
 \end{itemize}
+\subsection{Customized driver}
+\subsection{modified mmaps}
+
+\subsection{Client program}
 
 \section{Evaluation}
 \label{sec:eval}
 \subsection{Experimental Setup}
-We evaluated on an ARM Morello development board (8‑core Cortex‑A75, 16 GiB DDR4) running CheriBSD 14.0‑CURRENT with the “purecap” ABI at \SI{1.5}{\giga\hertz}. Baselines include (i) vanilla netmap with the stock \e driver, and (ii) the standard BSD socket API over the full network stack.
+We evaluated on an ARM Morello development board (8-core Cortex-A75, 16 GiB DDR4) running CheriBSD-14.0-CURRENT with the “purecap” ABI at 1.5 Ghz. Baselines include (i) vanilla netmap with the stock \e driver, and (ii) the standard BSD socket API over the full network stack.
 
 \subsection{Performance Results}
 Figure\,\ref{fig:pps} reports packet‑per‑second throughput for 64‑B UDP echo using a software loopback. CE‑IO achieves 14.8 Mpps, 94 \% of netmap, and 7.7× faster than sockets. Latency microbenchmarks using rdtsc show median RTT of 3.1 µs (vs. 2.9 µs for netmap). We attribute the minor overhead to capability checks during every ring access.
