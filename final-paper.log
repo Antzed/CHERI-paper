@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023/Debian) (preloaded format=pdflatex 2025.6.7)  7 JUN 2025 13:19
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023/Debian) (preloaded format=pdflatex 2025.6.7)  8 JUN 2025 15:56
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -798,29 +798,29 @@ Package caption Info: listings package is loaded.
 Package caption Info: End \AtBeginDocument code.
 \c@lstlisting=\count332
 LaTeX Font Info:    Font shape `T1/LinuxLibertineT-TLF/m/n' will be
-(Font)              scaled to size 17.28pt on input line 53.
-LaTeX Font Info:    Trying to load font information for T1+LinuxBiolinumT-TLF on input line 53.
+(Font)              scaled to size 17.28pt on input line 52.
+LaTeX Font Info:    Trying to load font information for T1+LinuxBiolinumT-TLF on input line 52.
  (/usr/share/texlive/texmf-dist/tex/latex/libertine/T1LinuxBiolinumT-TLF.fd
 File: T1LinuxBiolinumT-TLF.fd 2017/03/20 (autoinst) Font definitions for T1/LinuxBiolinumT-TLF.
 )
 LaTeX Font Info:    Font shape `T1/LinuxBiolinumT-TLF/m/n' will be
-(Font)              scaled to size 17.28pt on input line 53.
+(Font)              scaled to size 17.28pt on input line 52.
 Package microtype Info: Loading generic protrusion settings for font family
 (microtype)             `LinuxBiolinumT-TLF' (encoding: T1).
 (microtype)             For optimal results, create family-specific settings.
 (microtype)             See the microtype manual for details.
 LaTeX Font Info:    Font shape `T1/LinuxBiolinumT-TLF/b/n' will be
-(Font)              scaled to size 17.28pt on input line 53.
+(Font)              scaled to size 17.28pt on input line 52.
 LaTeX Font Info:    Font shape `T1/LinuxLibertineT-TLF/m/n' will be
-(Font)              scaled to size 12.0pt on input line 53.
+(Font)              scaled to size 12.0pt on input line 52.
 LaTeX Font Info:    Font shape `T1/LinuxLibertineT-TLF/m/n' will be
-(Font)              scaled to size 10.0pt on input line 53.
+(Font)              scaled to size 10.0pt on input line 52.
 
 
 Class acmart Warning: No city present for an affiliation.
 
 LaTeX Font Info:    Font shape `OT1/LinuxLibertineT-TLF/m/n' will be
-(Font)              scaled to size 10.0pt on input line 53.
+(Font)              scaled to size 10.0pt on input line 52.
 Package microtype Info: Loading generic protrusion settings for font family
 (microtype)             `LinuxLibertineT-TLF' (encoding: OT1).
 (microtype)             For optimal results, create family-specific settings.
@@ -840,151 +840,148 @@ Class acmart Warning: No city present for an affiliation.
 Class acmart Warning: No city present for an affiliation.
 
 LaTeX Font Info:    Font shape `T1/LinuxLibertineT-TLF/m/it' will be
-(Font)              scaled to size 7.0pt on input line 53.
-LaTeX Font Info:    Trying to load font information for TS1+LinuxLibertineT-TLF on input line 53.
+(Font)              scaled to size 7.0pt on input line 52.
+LaTeX Font Info:    Trying to load font information for TS1+LinuxLibertineT-TLF on input line 52.
 (/usr/share/texlive/texmf-dist/tex/latex/libertine/TS1LinuxLibertineT-TLF.fd
 File: TS1LinuxLibertineT-TLF.fd 2017/03/20 (autoinst) Font definitions for TS1/LinuxLibertineT-TLF.
 )
 LaTeX Font Info:    Font shape `TS1/LinuxLibertineT-TLF/m/n' will be
-(Font)              scaled to size 7.0pt on input line 53.
+(Font)              scaled to size 7.0pt on input line 52.
 Package microtype Info: Loading generic protrusion settings for font family
 (microtype)             `LinuxLibertineT-TLF' (encoding: TS1).
 (microtype)             For optimal results, create family-specific settings.
 (microtype)             See the microtype manual for details.
 LaTeX Font Info:    Font shape `T1/LinuxLibertineT-TLF/b/n' will be
-(Font)              scaled to size 9.0pt on input line 53.
+(Font)              scaled to size 9.0pt on input line 52.
 LaTeX Font Info:    Font shape `T1/LinuxLibertineT-TLF/b/n' will be
-(Font)              scaled to size 10.95pt on input line 53.
+(Font)              scaled to size 10.95pt on input line 52.
 LaTeX Font Info:    Font shape `T1/LinuxLibertineT-TLF/m/sc' will be
-(Font)              scaled to size 9.0pt on input line 53.
+(Font)              scaled to size 9.0pt on input line 52.
 LaTeX Font Info:    Font shape `T1/LinuxLibertineT-TLF/m/it' will be
-(Font)              scaled to size 9.0pt on input line 53.
-LaTeX Font Info:    Trying to load font information for T1+zi4 on input line 53.
+(Font)              scaled to size 9.0pt on input line 52.
+LaTeX Font Info:    Trying to load font information for T1+zi4 on input line 52.
  (/usr/share/texlive/texmf-dist/tex/latex/inconsolata/t1zi4.fd
 File: t1zi4.fd 2018/01/14 T1/zi4 (Inconsolata)
 )
 LaTeX Font Info:    Font shape `T1/zi4/m/n' will be
-(Font)              scaled to size 9.0pt on input line 53.
+(Font)              scaled to size 9.0pt on input line 52.
 Package microtype Info: Loading generic protrusion settings for font family
 (microtype)             `zi4' (encoding: T1).
 (microtype)             For optimal results, create family-specific settings.
 (microtype)             See the microtype manual for details.
-
-Overfull \hbox (9.44713pt too wide) in paragraph at lines 53--53
-\T1/LinuxLibertineT-TLF/m/n/9 (-20) CHERI, ca-pa-bil-i-ties, DMA, zero[]copy, user[]space net-work-ing, FreeBSD,
- []
-
 LaTeX Font Info:    Font shape `T1/LinuxLibertineT-TLF/m/n' will be
-(Font)              scaled to size 8.0pt on input line 53.
+(Font)              scaled to size 8.0pt on input line 52.
 LaTeX Font Info:    Font shape `T1/LinuxLibertineT-TLF/b/n' will be
-(Font)              scaled to size 8.0pt on input line 53.
+(Font)              scaled to size 8.0pt on input line 52.
 LaTeX Font Info:    Font shape `T1/LinuxLibertineT-TLF/m/it' will be
-(Font)              scaled to size 8.0pt on input line 53.
+(Font)              scaled to size 8.0pt on input line 52.
 
-LaTeX Warning: Reference `TotPages' on page 1 undefined on input line 53.
+
+LaTeX Warning: Reference `TotPages' on page 1 undefined on input line 52.
 
 LaTeX Font Info:    Font shape `OT1/LinuxLibertineT-TLF/m/n' will be
-(Font)              scaled to size 8.0pt on input line 53.
+(Font)              scaled to size 8.0pt on input line 52.
 LaTeX Font Info:    Font shape `OT1/LinuxLibertineT-TLF/m/n' will be
-(Font)              scaled to size 6.2pt on input line 53.
-
-Package natbib Warning: Citation `netmapCVE' on page 1 undefined on input line 57.
-
-
-Package natbib Warning: Citation `woodruff2019cheri' on page 1 undefined on input line 59.
+(Font)              scaled to size 6.2pt on input line 52.
+No file final-paper.toc.
+\tf@toc=\write5
+\openout5 = `final-paper.toc'.
 
 
-Overfull \hbox (4.856pt too wide) in paragraph at lines 61--62
+Package natbib Warning: Citation `netmapCVE' on page 1 undefined on input line 63.
+
+
+Package natbib Warning: Citation `woodruff2019cheri' on page 1 undefined on input line 65.
+
+
+Overfull \hbox (4.856pt too wide) in paragraph at lines 67--68
 []\T1/LinuxLibertineT-TLF/m/n/9 (-20) This pa-per pro-poses \T1/LinuxLibertineT-TLF/b/n/9 (-20) Capability[]Enforced Di-rect I/O (CE[]IO)\T1/LinuxLibertineT-TLF/m/n/9 (-20) ^^Va
  []
 
 
-Overfull \hbox (32.10623pt too wide) in paragraph at lines 61--62
+Overfull \hbox (32.10623pt too wide) in paragraph at lines 67--68
 \T1/LinuxLibertineT-TLF/m/n/9 (-20) de-sign and proof[]of[]concept im-ple-men-ta-tion that retrofits the widely[]studied
  []
 
 
-Overfull \hbox (12.13564pt too wide) in paragraph at lines 63--64
+Overfull \hbox (12.13564pt too wide) in paragraph at lines 69--70
 []\T1/LinuxLibertineT-TLF/b/n/9 (-20) Design\T1/LinuxLibertineT-TLF/m/n/9 (-20) : We for-mu-late a threat model that dis-trusts all user space,
  []
 
 
-Overfull \hbox (28.23479pt too wide) in paragraph at lines 64--65
+Overfull \hbox (28.23479pt too wide) in paragraph at lines 70--71
 \T1/LinuxLibertineT-TLF/m/n/9 (-20) (\T1/zi4/m/n/9 e1000pol\T1/LinuxLibertineT-TLF/m/n/9 (-20) ) and a ker-nel ser-vice that is-sues bounded, non[]delegatable
  []
 
 
-LaTeX Warning: Reference `sec:background' on page 1 undefined on input line 68.
+LaTeX Warning: Reference `sec:background' on page 1 undefined on input line 74.
 
 
-LaTeX Warning: Reference `sec:design' on page 1 undefined on input line 68.
+LaTeX Warning: Reference `sec:design' on page 1 undefined on input line 74.
 
 
-LaTeX Warning: Reference `sec:impl' on page 1 undefined on input line 68.
+LaTeX Warning: Reference `sec:impl' on page 1 undefined on input line 74.
 
 
-LaTeX Warning: Reference `sec:eval' on page 1 undefined on input line 68.
+LaTeX Warning: Reference `sec:eval' on page 1 undefined on input line 74.
 
 
-LaTeX Warning: Reference `sec:discussion' on page 1 undefined on input line 68.
+LaTeX Warning: Reference `sec:discussion' on page 1 undefined on input line 74.
 
 
-LaTeX Warning: Reference `sec:related' on page 1 undefined on input line 68.
+LaTeX Warning: Reference `sec:related' on page 1 undefined on input line 74.
 
 
-LaTeX Warning: Reference `sec:conclusion' on page 1 undefined on input line 68.
+LaTeX Warning: Reference `sec:conclusion' on page 1 undefined on input line 74.
 
 
-Package natbib Warning: Citation `cheribsd' on page 1 undefined on input line 73.
+Package natbib Warning: Citation `cheribsd' on page 1 undefined on input line 79.
 
-LaTeX Font Info:    Font shape `T1/LinuxLibertineT-TLF/b/it' will be
-(Font)              scaled to size 10.95pt on input line 75.
-
-Package natbib Warning: Citation `rizzo2012netmap' on page 1 undefined on input line 76.
-
-
-Package natbib Warning: Citation `freebsdZC' on page 1 undefined on input line 76.
-
-
-Underfull \vbox (badness 2057) has occurred while \output is active []
-
- (/usr/share/texlive/texmf-dist/tex/generic/stringenc/se-pdfdoc.def
+(/usr/share/texlive/texmf-dist/tex/generic/stringenc/se-pdfdoc.def
 File: se-pdfdoc.def 2019/11/29 v1.12 stringenc: PDFDocEncoding
 ) (/usr/share/texlive/texmf-dist/tex/generic/stringenc/se-utf8.def
 File: se-utf8.def 2019/11/29 v1.12 stringenc: UTF-8
 ) [1.1{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}{/usr/share/texlive/texmf-dist/fonts/enc/dvips/libertine/lbtn_25tcsq.enc}{/usr/share/texlive/texmf-dist/fonts/enc/dvips/libertine/lbtn_76gpa5.enc}
 
 {/usr/share/texlive/texmf-dist/fonts/enc/dvips/libertine/lbtn_nh77jq.enc}{/usr/share/texlive/texmf-dist/fonts/enc/dvips/libertine/lbtn_ncsllp.enc}{/usr/share/texlive/texmf-dist/fonts/enc/dvips/libertine/lbtn_7grukw.enc}{/usr/share/texlive/texmf-dist/fonts/enc/dvips/inconsolata/i4-t1-4.enc}{/usr/share/texlive/texmf-dist/fonts/enc/dvips/libertine/lbtn_naooyc.enc}]
-Overfull \hbox (5.78537pt too wide) in paragraph at lines 81--82
+<figures/cheri-3-1024x460.png, id=32, 1027.84pt x 461.725pt>
+File: figures/cheri-3-1024x460.png Graphic file (type png)
+<use figures/cheri-3-1024x460.png>
+Package pdftex.def Info: figures/cheri-3-1024x460.png  used on input line 83.
+(pdftex.def)             Requested size: 217.03127pt x 97.49352pt.
+
+
+Class acmart Warning: A possible image without description on input line 86.
+
+LaTeX Font Info:    Font shape `T1/LinuxLibertineT-TLF/b/it' will be
+(Font)              scaled to size 10.95pt on input line 91.
+
+Package natbib Warning: Citation `rizzo2012netmap' on page 2 undefined on input line 92.
+
+
+Package natbib Warning: Citation `freebsdZC' on page 2 undefined on input line 92.
+
+
+Overfull \hbox (5.78537pt too wide) in paragraph at lines 100--101
 \T1/LinuxLibertineT-TLF/m/n/9 (-20) ware free of micro[]architectural at-tacks. All user pro-cesses^^Vincluding
  []
 
 
-LaTeX Warning: Reference `fig:flow' on page 2 undefined on input line 84.
+LaTeX Warning: Reference `fig:flow' on page 2 undefined on input line 103.
+
+<figures/general flowpng.png, id=34, 1235.61626pt x 725.71124pt>
+File: figures/general flowpng.png Graphic file (type png)
+<use figures/general flowpng.png>
+Package pdftex.def Info: figures/general flowpng.png  used on input line 107.
+(pdftex.def)             Requested size: 217.03127pt x 127.46645pt.
+
+Class acmart Warning: A possible image without description on input line 110.
 
 
-LaTeX Warning: File `figures/flow.pdf' not found on input line 88.
+LaTeX Warning: Reference `lst:ioctl' on page 2 undefined on input line 113.
 
 
-/home/antzed/Desktop/Code/CS446/final-paper/final-paper.tex:88: Package pdftex.def Error: File `figures/flow.pdf' not found: using draft setting.
-
-See the pdftex.def package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.88 ...s[width=0.9\columnwidth]{figures/flow.pdf}
-                                                  
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-Class acmart Warning: A possible image without description on input line 91.
-
-
-LaTeX Warning: Reference `lst:ioctl' on page 2 undefined on input line 94.
-
-
-Overfull \hbox (1.38548pt too wide) in paragraph at lines 94--95
+Overfull \hbox (1.38548pt too wide) in paragraph at lines 113--114
 \T1/LinuxLibertineT-TLF/m/n/9 (-20) The \T1/zi4/m/n/9 e1000pol \T1/LinuxLibertineT-TLF/m/n/9 (-20) dri-ver re-moves RX/TX in-ter-rupt paths, adopts polling,
  []
 
@@ -993,114 +990,114 @@ File: lstlang1.sty 2023/02/27 1.9 listings language file
 ) (/usr/share/texlive/texmf-dist/tex/latex/listings/lstmisc.sty
 File: lstmisc.sty 2023/02/27 1.9 (Carsten Heinz)
 )
-Package hyperref Info: bookmark level for unknown lstlisting defaults to 0 on input line 96.
+Package hyperref Info: bookmark level for unknown lstlisting defaults to 0 on input line 115.
 LaTeX Font Info:    Font shape `T1/zi4/b/n' will be
-(Font)              scaled to size 9.0pt on input line 96.
+(Font)              scaled to size 9.0pt on input line 115.
 LaTeX Font Info:    Font shape `TS1/LinuxLibertineT-TLF/m/n' will be
-(Font)              scaled to size 9.0pt on input line 99.
+(Font)              scaled to size 9.0pt on input line 118.
 
-Overfull \hbox (39.65536pt too wide) in paragraph at lines 101--102
+Overfull \hbox (39.65536pt too wide) in paragraph at lines 120--121
 [][][][][][][][][][][][][][][][] 
  []
 
-/home/antzed/Desktop/Code/CS446/final-paper/final-paper.tex:108: You can't use `macro parameter character #' in horizontal mode.
-l.108 We implemented CE‑IO on CheriBSD commit #
-                                                 \texttt{deadbeef}. The tota...
+/home/antzed/Desktop/Code/CS446/final-paper/final-paper.tex:127: You can't use `macro parameter character #' in horizontal mode.
+l.127 We implemented CE-IO on CheriBSD commit #
+                                               \texttt{deadbeef}. The total ...
 Sorry, but I'm not programmed to handle this case;
 I'll just pretend that you didn't ask for it.
 If you're in the wrong mode, you might be able to
 return to the right one by typing `I}' or `I$' or `I\par'.
 
 LaTeX Font Info:    Font shape `OT1/LinuxLibertineT-TLF/m/n' will be
-(Font)              scaled to size 9.0pt on input line 110.
-/home/antzed/Desktop/Code/CS446/final-paper/final-paper.tex:111: Missing $ inserted.
+(Font)              scaled to size 9.0pt on input line 129.
+/home/antzed/Desktop/Code/CS446/final-paper/final-paper.tex:130: Missing $ inserted.
 <inserted text> 
                 $
-l.111 ...ct to avoid alignment issues across PLAT_
+l.130 ...ct to avoid alignment issues across PLAT_
                                                   ABI.
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
 
 
-/home/antzed/Desktop/Code/CS446/final-paper/final-paper.tex:112: LaTeX Error: Command \item invalid in math mode.
+/home/antzed/Desktop/Code/CS446/final-paper/final-paper.tex:131: LaTeX Error: Command \item invalid in math mode.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.112     \item
+l.131     \item
                 \textbf{User Library}: Provides \texttt{ceio\_tx\_push} and ...
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
 
-/home/antzed/Desktop/Code/CS446/final-paper/final-paper.tex:112: LaTeX Error: Something's wrong--perhaps a missing \item.
+/home/antzed/Desktop/Code/CS446/final-paper/final-paper.tex:131: LaTeX Error: Something's wrong--perhaps a missing \item.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.112     \item \textbf
+l.131     \item \textbf
                        {User Library}: Provides \texttt{ceio\_tx\_push} and ...
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
 
-/home/antzed/Desktop/Code/CS446/final-paper/final-paper.tex:112: LaTeX Error: Something's wrong--perhaps a missing \item.
+/home/antzed/Desktop/Code/CS446/final-paper/final-paper.tex:131: LaTeX Error: Something's wrong--perhaps a missing \item.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.112     \item \textbf
+l.131     \item \textbf
                        {User Library}: Provides \texttt{ceio\_tx\_push} and ...
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
 LaTeX Font Info:    Font shape `T1/LinuxLibertineT-TLF/m/n' will be
-(Font)              scaled to size 7.3pt on input line 112.
+(Font)              scaled to size 7.3pt on input line 131.
 LaTeX Font Info:    Font shape `T1/LinuxLibertineT-TLF/m/n' will be
-(Font)              scaled to size 5.5pt on input line 112.
+(Font)              scaled to size 5.5pt on input line 131.
 
-/home/antzed/Desktop/Code/CS446/final-paper/final-paper.tex:113: LaTeX Error: Command \end{itemize} invalid in math mode.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.113 \end{itemize}
-                   
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-/home/antzed/Desktop/Code/CS446/final-paper/final-paper.tex:113: LaTeX Error: Something's wrong--perhaps a missing \item.
+/home/antzed/Desktop/Code/CS446/final-paper/final-paper.tex:132: LaTeX Error: Command \end{itemize} invalid in math mode.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.113 \end{itemize}
+l.132 \end{itemize}
                    
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
 
-/home/antzed/Desktop/Code/CS446/final-paper/final-paper.tex:113: LaTeX Error: Something's wrong--perhaps a missing \item.
+/home/antzed/Desktop/Code/CS446/final-paper/final-paper.tex:132: LaTeX Error: Something's wrong--perhaps a missing \item.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.113 \end{itemize}
+l.132 \end{itemize}
                    
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
-/home/antzed/Desktop/Code/CS446/final-paper/final-paper.tex:113: Missing $ inserted.
+
+/home/antzed/Desktop/Code/CS446/final-paper/final-paper.tex:132: LaTeX Error: Something's wrong--perhaps a missing \item.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.132 \end{itemize}
+                   
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+/home/antzed/Desktop/Code/CS446/final-paper/final-paper.tex:132: Missing $ inserted.
 <inserted text> 
                 $
-l.113 \end{itemize}
+l.132 \end{itemize}
                    
 I've inserted something that you may have forgotten.
 (See the <inserted text> above.)
@@ -1109,17 +1106,22 @@ really didn't forget anything, try typing `2' now; then
 my insertion and my current dilemma will both disappear.
 
 
-Overfull \hbox (28.24017pt too wide) in paragraph at lines 111--114
+Overfull \hbox (28.24017pt too wide) in paragraph at lines 130--133
 \T1/LinuxLibertineT-TLF/m/n/9 (-20) in a packed struct to avoid align-ment is-sues across PLAT$[]\OML/nxlmi/m/it/9 BI:[] \OT1/LinuxLibertineT-TLF/m/n/9 (-20) :
  []
 
 
-Overfull \hbox (129.48672pt too wide) in paragraph at lines 111--114
+Overfull \hbox (129.48672pt too wide) in paragraph at lines 130--133
 \OML/nxlmi/m/it/9 Provides[]and[]helperswithinlineCHERIintrinsics\LMS/ntxsy/m/n/9 �[]\OML/nxlmi/m/it/9 ; []\LMS/ntxsy/m/n/9 �\OML/nxlmi/m/it/9 :$ 
  []
 
-/home/antzed/Desktop/Code/CS446/final-paper/final-paper.tex:118: Undefined control sequence.
-l.118 ...CURRENT with the “purecap” ABI at \SI
+LaTeX Font Info:    Font shape `T1/LinuxBiolinumT-TLF/m/n' will be
+(Font)              scaled to size 9.0pt on input line 134.
+LaTeX Font Info:    Font shape `T1/LinuxBiolinumT-TLF/m/n' will be
+(Font)              scaled to size 7.0pt on input line 134.
+[2.2{/usr/share/texlive/texmf-dist/fonts/enc/dvips/libertine/lbtn_ki75ao.enc} <./figures/cheri-3-1024x460.png> <./figures/general flowpng.png>]
+/home/antzed/Desktop/Code/CS446/final-paper/final-paper.tex:137: Undefined control sequence.
+l.137 ...CURRENT with the “purecap” ABI at \SI
                                                   {1.5}{\giga\hertz}. Baseli...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -1127,8 +1129,8 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-/home/antzed/Desktop/Code/CS446/final-paper/final-paper.tex:118: Undefined control sequence.
-l.118 ...h the “purecap” ABI at \SI{1.5}{\giga
+/home/antzed/Desktop/Code/CS446/final-paper/final-paper.tex:137: Undefined control sequence.
+l.137 ...h the “purecap” ABI at \SI{1.5}{\giga
                                                   \hertz}. Baselines include...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -1136,8 +1138,8 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-/home/antzed/Desktop/Code/CS446/final-paper/final-paper.tex:118: Undefined control sequence.
-l.118 ...“purecap” ABI at \SI{1.5}{\giga\hertz
+/home/antzed/Desktop/Code/CS446/final-paper/final-paper.tex:137: Undefined control sequence.
+l.137 ...“purecap” ABI at \SI{1.5}{\giga\hertz
                                                   }. Baselines include (i) v...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -1146,74 +1148,72 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 
-Overfull \hbox (17.86133pt too wide) in paragraph at lines 118--119
+Overfull \hbox (17.86133pt too wide) in paragraph at lines 137--138
 \T1/LinuxLibertineT-TLF/m/n/9 (-20) We eval-u-ated on an ARM Morello de-vel-op-ment board (8[]core Cortex[]A75,
  []
 
 
-LaTeX Warning: Reference `fig:pps' on page 2 undefined on input line 121.
+LaTeX Warning: Reference `fig:pps' on page 3 undefined on input line 140.
 
 
-LaTeX Warning: File `figures/pps.pdf' not found on input line 125.
+LaTeX Warning: File `figures/pps.pdf' not found on input line 144.
 
 
-/home/antzed/Desktop/Code/CS446/final-paper/final-paper.tex:125: Package pdftex.def Error: File `figures/pps.pdf' not found: using draft setting.
+/home/antzed/Desktop/Code/CS446/final-paper/final-paper.tex:144: Package pdftex.def Error: File `figures/pps.pdf' not found: using draft setting.
 
 See the pdftex.def package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.125 ...[width=0.85\columnwidth]{figures/pps.pdf}
+l.144 ...[width=0.85\columnwidth]{figures/pps.pdf}
                                                   
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
 
-Class acmart Warning: A possible image without description on input line 128.
+Class acmart Warning: A possible image without description on input line 147.
 
 
-LaTeX Warning: Reference `tab:attacks' on page 2 undefined on input line 131.
+LaTeX Warning: Reference `tab:attacks' on page 3 undefined on input line 150.
+
+<figures/future-work.drawio.png, id=62, 285.31593pt x 273.27094pt>
+File: figures/future-work.drawio.png Graphic file (type png)
+<use figures/future-work.drawio.png>
+Package pdftex.def Info: figures/future-work.drawio.png  used on input line 173.
+(pdftex.def)             Requested size: 217.03127pt x 207.86736pt.
+
+Class acmart Warning: A possible image without description on input line 176.
 
 
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-LaTeX Font Info:    Font shape `T1/LinuxBiolinumT-TLF/m/n' will be
-(Font)              scaled to size 9.0pt on input line 150.
-LaTeX Font Info:    Font shape `T1/LinuxBiolinumT-TLF/m/n' will be
-(Font)              scaled to size 7.0pt on input line 150.
-[2.2{/usr/share/texlive/texmf-dist/fonts/enc/dvips/libertine/lbtn_ki75ao.enc}{/usr/share/texlive/texmf-dist/fonts/enc/dvips/libertine/lbtn_oexx6f.enc}]
-
-Package natbib Warning: Citation `rizzo2012netmap' on page 3 undefined on input line 153.
+Package natbib Warning: Citation `rizzo2012netmap' on page 3 undefined on input line 181.
 
 
-Package natbib Warning: Citation `carat2023' on page 3 undefined on input line 153.
+Package natbib Warning: Citation `carat2023' on page 3 undefined on input line 181.
 
 
-Package natbib Warning: Citation `watts2019cheriabi' on page 3 undefined on input line 153.
+Package natbib Warning: Citation `watts2019cheriabi' on page 3 undefined on input line 181.
 
 
-Package natbib Warning: Citation `cheridma2020' on page 3 undefined on input line 153.
+Package natbib Warning: Citation `cheridma2020' on page 3 undefined on input line 181.
 
 Processing 'acks' comment.
 \openout3 = `comment.cut'.
 
  Comment 'acks' writing to comment.cut. Straight input of comment.cut. (./comment.cut)
-Overfull \hbox (9.06714pt too wide) in paragraph at lines 1--162
-\T1/LinuxLibertineT-TLF/m/n/9 (-20) for guid-ance. This re-search was sup-ported in part by NSF CNS[]2222222. 
- []
 
+Package balance Warning: You have called \balance in second column
+(balance)                Columns might not be balanced.
+
+[3.3{/usr/share/texlive/texmf-dist/fonts/enc/dvips/libertine/lbtn_oexx6f.enc} <./figures/future-work.drawio.png>]
 
 Package natbib Warning: There were undefined citations.
 
 
 Class acmart Warning: Some images may lack descriptions.
 
+[4.4]
 
-Overfull \vbox (1.72015pt too high) has occurred while \output is active []
-
- [3.3]
-
-LaTeX Warning: Hook 'shipout/lastpage' executed on wrong page (1 not 3).
+LaTeX Warning: Hook 'shipout/lastpage' executed on wrong page (1 not 4).
                Rerun to correct this.
 
 (./final-paper.aux
@@ -1240,21 +1240,21 @@ Package rerunfilecheck Warning: File `final-paper.out' has changed.
 
 Package rerunfilecheck Info: Checksums for `final-paper.out':
 (rerunfilecheck)             Before: <no file>
-(rerunfilecheck)             After:  48CE60BB81A7DB85EB2E29261E48204C;2693.
+(rerunfilecheck)             After:  B9A64F8B66F267709114CB50ECFC9076;3020.
  ) 
 Here is how much of TeX's memory you used:
- 23021 strings out of 476182
- 366856 string characters out of 5795596
- 1955975 words of memory out of 5000000
- 44033 multiletter control sequences out of 15000+600000
- 736343 words of font info for 364 fonts, out of 8000000 for 9000
+ 23037 strings out of 476182
+ 367326 string characters out of 5795596
+ 1954975 words of memory out of 5000000
+ 44028 multiletter control sequences out of 15000+600000
+ 737779 words of font info for 374 fonts, out of 8000000 for 9000
  175 hyphenation exceptions out of 8191
- 90i,12n,131p,1052b,1242s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 90i,12n,131p,1148b,1242s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </usr/share/texlive/texmf-dist/fonts/type1/public/inconsolata/Inconsolata-zi4b.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/inconsolata/Inconsolata-zi4r.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/newtx/LibertineMathMI.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/newtx/LibertineMathMI7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/libertine/LinBiolinumT.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/libertine/LinBiolinumTB.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/libertine/LinLibertineT.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/libertine/LinLibertineTB.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/libertine/LinLibertineTBI.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/libertine/LinLibertineTI.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/newtx/txsys.pfb>
-Output written on final-paper.pdf (3 pages, 479682 bytes).
+Output written on final-paper.pdf (4 pages, 587407 bytes).
 PDF statistics:
- 154 PDF objects out of 1000 (max. 8388607)
- 120 compressed objects within 2 object streams
- 48 named destinations out of 1000 (max. 500000)
- 100369 words of extra memory for PDF output out of 106986 (max. 10000000)
+ 170 PDF objects out of 1000 (max. 8388607)
+ 129 compressed objects within 2 object streams
+ 53 named destinations out of 1000 (max. 500000)
+ 100384 words of extra memory for PDF output out of 106986 (max. 10000000)
 

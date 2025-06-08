@@ -362,7 +362,7 @@ INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/newtx/ntxsyc.tfm
 INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/newtx/ntxsyc.tfm
 INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/newtx/ntxexa.tfm
 INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/newtx/ntxexa.tfm
-INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/libertine/LinLibertineTBI-tlf-t1.tfm
+OUTPUT final-paper.toc
 INPUT /usr/share/texlive/texmf-dist/tex/generic/stringenc/se-pdfdoc.def
 INPUT /usr/share/texlive/texmf-dist/tex/generic/stringenc/se-pdfdoc.def
 INPUT /usr/share/texlive/texmf-dist/tex/generic/stringenc/se-pdfdoc.def
@@ -405,6 +405,17 @@ INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/libertine/LinLibertineTI-tl
 INPUT /usr/share/texlive/texmf-dist/fonts/vf/public/libertine/LinLibertineT-tlf-ts1.vf
 INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/libertine/LinLibertineT-tlf-ts1--base.tfm
 INPUT /usr/share/texlive/texmf-dist/fonts/enc/dvips/libertine/lbtn_naooyc.enc
+INPUT ./figures/cheri-3-1024x460.png
+INPUT ./figures/cheri-3-1024x460.png
+INPUT ./figures/cheri-3-1024x460.png
+INPUT ./figures/cheri-3-1024x460.png
+INPUT ./figures/cheri-3-1024x460.png
+INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/libertine/LinLibertineTBI-tlf-t1.tfm
+INPUT ./figures/general flowpng.png
+INPUT ./figures/general flowpng.png
+INPUT ./figures/general flowpng.png
+INPUT ./figures/general flowpng.png
+INPUT ./figures/general flowpng.png
 INPUT /usr/share/texlive/texmf-dist/tex/latex/listings/lstlang1.sty
 INPUT /usr/share/texlive/texmf-dist/tex/latex/listings/lstlang1.sty
 INPUT /usr/share/texlive/texmf-dist/tex/latex/listings/lstlang1.sty
@@ -441,6 +452,15 @@ INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/libertine/LinLibertineT-tlf
 INPUT /usr/share/texlive/texmf-dist/fonts/vf/public/newtx/ntxsy.vf
 INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/newtx/txsys.tfm
 INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/newtx/txex-bar.tfm
+INPUT ./figures/future-work.drawio.png
+INPUT ./figures/future-work.drawio.png
+INPUT ./figures/future-work.drawio.png
+INPUT ./figures/future-work.drawio.png
+INPUT ./figures/future-work.drawio.png
+OUTPUT comment.cut
+INPUT ./comment.cut
+INPUT ./comment.cut
+INPUT comment.cut
 INPUT /usr/share/texlive/texmf-dist/fonts/vf/public/newtx/nxlmi7.vf
 INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/newtx/LibertineMathMI7.tfm
 INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/newtx/NewTXMI7.tfm
@@ -452,10 +472,6 @@ INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/newtx/stxscr.tfm
 INPUT /usr/share/texlive/texmf-dist/fonts/vf/public/libertine/LinLibertineT-tlf-ot1.vf
 INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/libertine/LinLibertineT-tlf-ot1--base.tfm
 INPUT /usr/share/texlive/texmf-dist/fonts/enc/dvips/libertine/lbtn_oexx6f.enc
-OUTPUT comment.cut
-INPUT ./comment.cut
-INPUT ./comment.cut
-INPUT comment.cut
 INPUT final-paper.aux
 INPUT ./final-paper.out
 INPUT ./final-paper.out
