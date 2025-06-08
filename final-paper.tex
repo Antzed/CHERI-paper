@@ -13,7 +13,7 @@
 \affiliation{\institution{Northwestern University}\country{USA}}
 \email{anthony.zhang@u.northwestern.edu}
 
-\author{Kelly Chan}
+\author{Kelly Wu}
 \affiliation{\institution{Northwestern University}\country{USA}}
 \email{kelly.chan@u.northwestern.edu}
 
@@ -79,15 +79,82 @@ This paper proposes \textbf{Capability‑Enforced Direct I/O (CE‑IO)}—a des
 
 \section{Background}
 \label{sec:background}
-\subsection{CHERI Capabilities}
+\
+\subsection{CHERI}
+CHERI (Capability Hardware Enhanced RISC Instructions) is an ISA extension that represents pointers as 128‑bit capabilities, combining base, length, permissions (read/write/execute), and a cryptographic tag. 
+
 CHERI introduces 128‑bit pointers called \emph{capabilities} that embed a base, length, access rights (\texttt{RWXLD}), and sealed provenance, enforced in hardware. Capabilities are monotonically reducible: executing \texttt{CSetBounds} or \texttt{CAndPerm} can only shrink authority. This property enables fine‑grained object isolation without costly page faults. The Morello board couples CHERI with ARMv8‑A, delivering user and kernel support in CheriBSD \cite{cheribsd}.  
 
-\begin{figure}[t]
+%---------- CHERI Capabilities Primer ----------------%
+\begin{figure}[h! tbp]
     \centering
     \includegraphics[width=0.9\columnwidth]{figures/cheri-3-1024x460.png}
     \caption{Inner structure of a CHERI capabilit pointer.}
     \label{fig:capability}
 \end{figure}
+
+\subsection{Derivation \& Monotonicity}
+
+\begin{itemize}
+  \item Instructions such as \texttt{CSetBounds} and \texttt{CAndPerm} can \emph{only} shrink bounds or clear permission bits.  
+  \item Any attempt to widen authority raises an exception and clears the tag.  
+  \item This hardware-enforced \emph{monotonicity} realises the Principle of Least Privilege inside a single address space.
+\end{itemize}
+
+\paragraph{Key ISA extensions}
+\begin{itemize}
+  \item \textbf{Bounds}: \texttt{CSetBounds}, \texttt{CSetLen}  
+  \item \textbf{Permissions}: \texttt{CAndPerm}  
+  \item \textbf{Sealing}: \texttt{CSeal}, \texttt{CUnseal}  
+  \item \textbf{Capability-aware ops}: \texttt{CLC}, \texttt{CSC}, \texttt{CJR}, \dots
+\end{itemize}
+
+%---------- Security Properties ----------------%
+\subsection{Security Properties Enforced}
+
+
+\subsubsection{Spatial memory safety.}
+Out-of-bounds reads and writes are stopped in hardware: if the cursor moves outside a capability’s base–length bounds, the tag is invalidated and the processor raises a fault instead of silently corrupting adjacent memory.
+
+\subsubsection{Pointer integrity and type safety.}
+Because the tag bit is unforgeable in software, attackers cannot fabricate new capabilities from integers or enlarge existing ones.  Sealed object-types further guarantee that a token representing one abstraction (e.g., a file descriptor) cannot be reinterpreted as a pointer to another (e.g., a vtable).
+
+\subsubsection{Control-flow integrity and ROP resistance.}
+Execute permission is distinct from data permission, and return-address capabilities are sealed on function call.  This thwarts classic stack smashing and return-oriented-programming attacks without compiler-inserted guard code.
+
+\subsubsection{Least-privilege confinement.}
+Sub-systems are handed only the sub-capabilities they need; monotonic derivation prevents them from manufacturing broader authority, eliminating confused-deputy vulnerabilities inside a single process.
+
+\subsubsection{Kernel–user isolation for shared DMA rings.}
+User space receives a capability covering \emph{exactly} the portion of a DMA ring buffer it is allowed to touch.  Any attempt to stray into kernel metadata is blocked by the same bounds and permission checks, removing the need for slower software range checks.
+
+
+%---------- Use Cases ----------------%
+%---------- Typical Use Cases (Paragraph Form) ----------------%
+\subsection{Typical Use Cases}
+
+\subsubsection{Memory-safe C/C++.}
+Replacing raw pointers with capabilities in large C/C++ code bases catches 70–90\% of spatial bugs while preserving existing language semantics.  The entire CheriBSD userland and kernel have been compiled in this mode.
+
+\subsubsection{Library and plugin sandboxing.}
+A dynamic linker can seal each shared object behind its own capability boundary so that a compromised plugin cannot read or overwrite another library’s data.  Prototype browsers and \texttt{OpenSSH} variants have shown this works with negligible overhead.
+
+\subsubsection{High-performance I/O ring buffers.}
+Frameworks such as \texttt{netmap} or Linux \texttt{io\_uring} can map a single capability that covers \emph{only} the DMA ring, eliminating software range checks yet preventing user code from poking into kernel metadata.
+
+\subsubsection{Managed-to-native foreign-function interfaces.}
+Runtimes (e.g.\ JVM, WebAssembly) pass native stubs a capability bounded to the managed object’s backing store, ensuring that “unsafe” native code cannot wander outside the object.
+
+\subsubsection{MCU-class isolation without an MMU.}
+The \textit{CHERIoT} project brings 128-bit capabilities to microcontrollers, providing task and driver isolation on devices that lack page-based protection.
+
+\subsubsection{Industrial evaluation on real silicon.}
+Arm’s experimental \textit{Morello} board merges CHERI with the ARMv8-A pipeline, letting OS vendors and researchers measure performance and security trade-offs in shipping hardware.
+
+
+
+
+
 
 \subsection{CHERI-BSD}
 CheriBSD is an experimental branch of FreeBSD maintained by the CTSRD and University of Cambridge teams to act as the reference operating‑system stack for evaluating the \cheri architectural extensions. The kernel, C standard library, compiler toolchain, and userland are all re‑compiled with capability awareness, yielding two deployment modes: a \emph{hybrid} ABI that mixes 64‑bit integers and 128‑bit capabilities for gradual porting, and a \emph{purecap} ABI in which \emph{every} pointer is a capability carrying bounds, permissions, and provenance. CheriBSD intentionally tracks upstream FreeBSD closely, so familiar services, drivers, and build tooling continue to work while hardware enforces fine‑grained memory safety. In our prototype we run CheriBSD 14.0‑CURRENT in purecap mode on the ARM Morello evaluation board; any attempt to forge, widen, or derive an out‑of‑bounds capability triggers a synchronous fault, a property our CE‑IO design leverages when exchanging DMA descriptors between kernel and user space.

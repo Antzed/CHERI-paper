@@ -2,14 +2,29 @@
 \contentsline {section}{Contents}{1}{section*.4}%
 \contentsline {section}{\numberline {1}Introduction}{1}{section.1}%
 \contentsline {section}{\numberline {2}Background}{1}{section.2}%
-\contentsline {subsection}{\numberline {2.1}CHERI Capabilities}{1}{subsection.2.1}%
-\contentsline {subsection}{\numberline {2.2}CHERI-BSD}{2}{subsection.2.2}%
-\contentsline {subsection}{\numberline {2.3}FreeBSD \textit {e}1000\xspace  Driver and Netmap}{2}{subsection.2.3}%
-\contentsline {section}{\numberline {3}Design}{2}{section.3}%
-\contentsline {subsection}{\numberline {3.1}Threat Model}{2}{subsection.3.1}%
-\contentsline {subsection}{\numberline {3.2}Capability Derivation Service}{2}{subsection.3.2}%
-\contentsline {subsection}{\numberline {3.3}Driver Modifications}{2}{subsection.3.3}%
-\contentsline {section}{\numberline {4}Implementation}{2}{section.4}%
+\contentsline {subsection}{\numberline {2.1}CHERI}{2}{subsection.2.1}%
+\contentsline {subsection}{\numberline {2.2}Derivation \& Monotonicity}{2}{subsection.2.2}%
+\contentsline {paragraph}{Key ISA extensions}{2}{section*.6}%
+\contentsline {subsection}{\numberline {2.3}Security Properties Enforced}{2}{subsection.2.3}%
+\contentsline {subsubsection}{\numberline {2.3.1}Spatial memory safety.}{2}{subsubsection.2.3.1}%
+\contentsline {subsubsection}{\numberline {2.3.2}Pointer integrity and type safety.}{2}{subsubsection.2.3.2}%
+\contentsline {subsubsection}{\numberline {2.3.3}Control-flow integrity and ROP resistance.}{2}{subsubsection.2.3.3}%
+\contentsline {subsubsection}{\numberline {2.3.4}Least-privilege confinement.}{2}{subsubsection.2.3.4}%
+\contentsline {subsubsection}{\numberline {2.3.5}Kernel–user isolation for shared DMA rings.}{2}{subsubsection.2.3.5}%
+\contentsline {subsection}{\numberline {2.4}Typical Use Cases}{2}{subsection.2.4}%
+\contentsline {subsubsection}{\numberline {2.4.1}Memory-safe C/C++.}{2}{subsubsection.2.4.1}%
+\contentsline {subsubsection}{\numberline {2.4.2}Library and plugin sandboxing.}{2}{subsubsection.2.4.2}%
+\contentsline {subsubsection}{\numberline {2.4.3}High-performance I/O ring buffers.}{2}{subsubsection.2.4.3}%
+\contentsline {subsubsection}{\numberline {2.4.4}Managed-to-native foreign-function interfaces.}{2}{subsubsection.2.4.4}%
+\contentsline {subsubsection}{\numberline {2.4.5}MCU-class isolation without an MMU.}{2}{subsubsection.2.4.5}%
+\contentsline {subsubsection}{\numberline {2.4.6}Industrial evaluation on real silicon.}{2}{subsubsection.2.4.6}%
+\contentsline {subsection}{\numberline {2.5}CHERI-BSD}{2}{subsection.2.5}%
+\contentsline {subsection}{\numberline {2.6}FreeBSD \textit {e}1000\xspace  Driver and Netmap}{3}{subsection.2.6}%
+\contentsline {section}{\numberline {3}Design}{3}{section.3}%
+\contentsline {subsection}{\numberline {3.1}Threat Model}{3}{subsection.3.1}%
+\contentsline {subsection}{\numberline {3.2}Capability Derivation Service}{3}{subsection.3.2}%
+\contentsline {subsection}{\numberline {3.3}Driver Modifications}{3}{subsection.3.3}%
+\contentsline {section}{\numberline {4}Implementation}{3}{section.4}%
 \contentsline {subsection}{\numberline {4.1}Customized driver}{3}{subsection.4.1}%
 \contentsline {subsection}{\numberline {4.2}modified mmaps}{3}{subsection.4.2}%
 \contentsline {subsection}{\numberline {4.3}Client program}{3}{subsection.4.3}%
@@ -18,8 +33,8 @@
 \contentsline {subsection}{\numberline {5.2}Performance Results}{3}{subsection.5.2}%
 \contentsline {subsection}{\numberline {5.3}Security Evaluation}{3}{subsection.5.3}%
 \contentsline {section}{\numberline {6}Discussion}{3}{section.6}%
-\contentsline {section}{\numberline {7}Futurk work}{3}{section.7}%
-\contentsline {section}{\numberline {8}Related Work}{3}{section.8}%
-\contentsline {section}{\numberline {9}Conclusion}{3}{section.9}%
-\contentsline {section}{Acknowledgments}{4}{section*.11}%
-\contentsline {section}{References}{4}{section*.13}%
+\contentsline {section}{\numberline {7}Futurk work}{4}{section.7}%
+\contentsline {section}{\numberline {8}Related Work}{4}{section.8}%
+\contentsline {section}{\numberline {9}Conclusion}{4}{section.9}%
+\contentsline {section}{Acknowledgments}{4}{section*.12}%
+\contentsline {section}{References}{4}{section*.14}%
